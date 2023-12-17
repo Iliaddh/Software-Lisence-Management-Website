@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provider Profile</title>
+    <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="ClientPage.css">
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <a href="/mainPage.html"><img src="assets/icons8-logo-50.png" alt="logo" /></a>
+        <h2 id="title">LicenseSync</h2>
+      </div>
+      <ul class="nav-links">
+        <li class="link"><a href="mainPage.html">Home</a></li>
+        <li class="link"><a href="#">Features</a></li>
+        <li class="link"><a href="./pricing.html">Pricing</a></li>
+        <li class="link"><a href="./aboutUs.html">About Us</a></li>
+        <li class="link"><a href="./contactUs.html">Contact Us</a></li>
+      </ul>
+      <div class="dropdown">
+        <button id="dropdownButton" class="dropbtn btn">View Profile</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="ProviderLisencesAndClients.html">Return</a>
+          <a id="logOut">Log Out</a>
+        </div>
+      </div>
+    </nav>
+    <hr>
+
+    <div class="page">
+      <section id="profile" class="section-container">
+        <table class="section-container">
+            <caption class="section-header">My Information</caption>
+            <tbody id="userTableBody">
+                <tr>
+                  <th>First Name</th>
+                  <td id="pFN"></td>
+                  <td> <button id="editFN" class="licenseBtn">Edit</button></td>
+                </tr>
+                <tr>
+                  <th>Last Name</th>
+                  <td id="pLN"></td>
+                  <td> <button id="editLN" class="licenseBtn">Edit</button></td>
+                </tr>
+                <tr>
+                  <th>Email</th>
+                  <td id="pEM"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+  </div>
+
+    <hr>
+    <footer class="section-container footer-container">
+      <span class="bg-blur"></span>
+      <span class="bg-blur footer-blur"></span>
+      <div class="footer-col">
+        <div class="footer-logo"><img src="assets/icons8-logo-50.png" alt="logo" /></div>
+        <h4>LicenseSync</h4>
+        <p>
+          A web-based system for software license management. Designed for both
+          software providers and users.
+        </p>
+        <div class="footer-socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="./aboutUs.html">About Us</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <a href="#">FAQ</a>
+        <a href="./pricing.html">Pricings</a>
+        <a href="./contactUs.html">Contact Us</a>
+      </div>
+      <div class="footer-col">
+        <h4>Security</h4>
+        <img src="assets/soc.png" alt="soc2" class="security">
+        <img src="assets/iso.png" alt="iso27001" class="security">
+        <img src="assets/csa.png" alt="csa" class="security">
+        <img src="assets/gdpr.png" alt="gdpr" class="security">
+        <img src="assets/PCI.png" alt="PCI" class="security">
+      </div>
+    </footer>
+    <div class="footer-bar">
+      Copyright © 2023 SOEN 287. All rights reserved.
+    </div>
+  </body>
+
+  <script type="module" src="ProfileClient.js"></script>
+</html>

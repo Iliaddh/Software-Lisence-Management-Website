@@ -1,0 +1,24 @@
+Requirements for
+Client: - manage an account (create, edit, delete)
+        - associate a license/serial number with an account 
+        - view own serial numbers and other details of software
+        - aquire new licenses
+        - renew new licenses
+
+Provider: - generate unique serial numbers without giving hints on how they are generated and assigning them to clients
+          - safely storing valid serial numbers
+          - checking valid serial numbers
+          - enforcing valid serial numbers
+          - manage clients account
+          - associate serial number with Client
+          - Enable/unblock and disable/block a serial number (if needed)
+          - Notify clients (through emails) whenever needed (approaching subscription renewal,invalid serial number, irregular use of serial numbers…) 
+
+          
+pages we need:  - homepage [c/p]
+                - login [c/p]
+                - signup page [c/p]
+                - table to view software [c/p](p can add software to it)
+                - page view/manage owned software [c]
+                - view/manage own account (settings page) [c/p]
+                - view/manage all accounts and their licenses [p]
