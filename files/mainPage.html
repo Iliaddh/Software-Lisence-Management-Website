@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>LicenseSync</title>
+    <script type="module" src="firebaseConfig.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <a href="#"><img src="assets/icons8-logo-50.png" alt="logo" /></a>
+        <h2 id="title">LicenseSync</h2>
+      </div>
+      <ul class="nav-links">
+        <li class="link"><a href="./mainPage.html">Home</a></li>
+        <li class="link"><a href="#">Features</a></li>
+        <li class="link"><a href="./pricing.html">Pricing</a></li>
+        <li class="link"><a href="./aboutUs.html">About Us</a></li>
+        <li class="link"><a href="./contactUs.html">Contact Us</a></li>
+      </ul>
+      <div id="signInDiv">
+        <button id="signIn" class="btn">Sign In</button>
+      </div>
+    </nav>
+    <hr>
+
+    <header class="section-container header-container">
+      <div class="header-content">
+        <span class="bg-blur"></span>
+        <span class="bg-blur header-blur"></span>
+        <h4>License Management Made Simple</h4>
+        <h1><span>Take Control</span> <br> of your licenses</h1>
+        <p>
+         
+        </p>
+        <button class="btn">Learn more</button>
+      </div>
+      <div id="header-image" class="header-image">
+        <img src="assets/header.png" alt="header" />
+      </div>
+    </header>
+
+    <section class="section-container explore-container" id="explore-container">
+      <div class="explore-header">
+        <h2 class="section-header">EXPLORE OUR FEATURES</h2>
+      </div>
+      <div class="explore-grid">
+        <div class="explore-card">
+          <span><i class="ri-boxing-fill"></i></span>
+          <h4>Right Sized Solution</h4>
+          <p>
+            A solution built for users and providers. Discover and manage licenses across your organization or as a end-user.
+          </p>
+        </div>
+        <div class="explore-card">
+          <h4>Consolidated System</h4>
+          <p>
+            Provides oversight on the dynamics of software licensing in your orgnaization. 
+          </p>
+        </div>
+        <div class="explore-card">
+          <h4>Real-Time Alerts and Reports</h4>
+          <p>
+            Configure notification alerts to be up-to-date on licensing compliance, and obtain compliance reports.
+          </p>
+        </div>
+        <div class="explore-card">
+          <span><i class="ri-shopping-basket-fill"></i></span>
+          <h4>Innovative Analytics</h4>
+          <p>
+          Our analytics function enables you to make better informed decisions by tracking lifecycles and forecasting licensing costs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-container left-container">
+      <div class="left-img">
+        <span class="bg-blur"></span>
+        <img src="assets/left-img.png" alt="left header" id="left-img" class="left-img1" />
+      </div>
+      <div class="company-content">
+        <h2 class="section-header">Why LicenseSync?</h2>
+        <p>
+          As a trusted cloud solution for companies and end-users around the world, we offer an intelligent solution for software license management, 
+          and empower users and organizations to achieve maximum usage and efficiency.
+        </p>
+        <div id="signInDiv-side">
+          <a href="/login.html#signUp"><button class="btn">Sign Up Now</button></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-container price-container">
+      <h2 class="section-header" id="pricing-plan">OUR PRICING PLAN</h2>
+      <p class="section-subheader">
+        Simple pricing. No unexpected surprises.
+      </p>
+      <div class="price-grid">
+        <div class="price-card">
+          <div class="price-card-content">
+            <h4>Basic Plan</h4>
+            <h3>$10</h3>
+            <h4>per user/month</h4>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              24/7 phone or chat support
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Real-time usage
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Comprehensive built-in reporting
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Monitoring of unlimited licenses
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Up to license 5 managers
+            </p>
+          </div>
+          <button class="btn price-btn">Join Now</button>
+        </div>
+        <div class="price-card">
+          <div class="price-card-content">
+            <h4>Standard Plan</h4>
+            <h3>$25</h3>
+            <h4>per user/month</h4>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Product versioning
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Offline license management
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+             Up to 50 license managers
+            </p>
+          </div>
+          <button class="btn price-btn">Join Now</button>
+        </div>
+        <div class="price-card">
+          <div class="price-card-content">
+            <h4>Enterprise</h4>
+            <h3>$600</h3>
+            <h4>per month</h4>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Node Locking
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+             Automation
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Predictive analytics
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+             Unlimited license managers
+            </p>
+           
+          </div>
+          <button class="btn price-btn">Join Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="review">
+      <div class="section-container review-container">
+        <span><i class="ri-double-quotes-r"></i></span>
+        <div class="review-content">
+          <h4>USER REVIEW</h4>
+          <p>
+            "We are satisfied customers of LicenseSync! LicenseSync provides the capabilities that we need, directly, and simply to manage our software licenses.
+            It is an important part of our company, and I would highly recommend their product!"
+          </p>
+          <div class="review-rating">
+            <span><i class="fa fa-solid fa-star"></i></span>
+            <span><i class="fa fa-solid fa-star" style="color: #ffffff;"></i></span>
+            <span><i class="fa fa-solid fa-star" style="color: #ffffff;"></i></span>
+            <span><i class="fa fa-solid fa-star" style="color: #ffffff;"></i></span>
+            <span><i class="fa fa-solid fa-star" style="color: #ffffff;"></i></span>
+          </div>
+          <div class="review-footer">
+            <div class="review">
+              <img src="assets/president.jpg" alt="president" />
+              <div class="review-details">
+                <h4>QuantumTech Technologies</h4>
+                <p>Francisco Alvares, President</p>
+              </div>
+            </div>
+            <div class="review-nav">
+              <span><i class="ri-arrow-left-line"></i></span>
+              <span><i class="ri-arrow-right-line"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section-container footer-container">
+      <span class="bg-blur"></span>
+      <span class="bg-blur footer-blur"></span>
+      <div class="footer-col">
+        <div class="footer-logo"><img src="assets/icons8-logo-50.png" alt="logo" /></div>
+        <h4>LicenseSync</h4>
+        <p>
+            A web-based system for software license management. Designed for both software providers and users.
+        </p>
+        <div class="footer-socials">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="./aboutUs.html">About Us</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <a href="#">FAQ</a>
+        <a href="./pricing.html">Pricings</a>
+        <a href="./contactUs.html">Contact Us</a>
+      </div>
+      <div class="footer-col">
+        <h4>Security</h4>
+       <img src="assets/soc.png" alt="soc2" class="security">
+       <img src="assets/iso.png" alt="iso27001" class="security">
+       <img src="assets/csa.png" alt="csa" class="security">
+       <img src="assets/gdpr.png" alt="gdpr" class="security">
+       <img src="assets/PCI.png" alt="PCI" class="security">
+      </div>
+    </footer>
+    <div class="footer-bar">
+      Copyright © 2023 SOEN 287. All rights reserved.
+    </div>
+  </body>
+
+  <script type="module" src="LogIn.js"></script>
+  <script type="module" src="mainPage.js"></script>
+
+</html>
