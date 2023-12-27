@@ -9,7 +9,7 @@ logOutBtn.addEventListener('click' , async () => {
     try{
         await signOut(auth);
         console.log("sign out successful");
-        window.location.href = 'mainPage.html';
+        window.location.href = 'index.html';
     }catch (error) {
         console.error('Error signing out: ' , error.message);
     }
