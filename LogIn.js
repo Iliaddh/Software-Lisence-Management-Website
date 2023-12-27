@@ -129,7 +129,7 @@ signUpBtn.addEventListener('click' , async () => {
             provider: user.provider === 'true'
         });
 
-        window.location.href = "mainPage.html";
+        window.location.href = "index.html";
     
 
     } catch (error) {
@@ -203,7 +203,7 @@ LogInButton.addEventListener('click' , async (event) => {
         if (user) {
             // User is signed in
             console.log('User is signed in:', user);
-            window.location.href = 'mainPage.html';
+            window.location.href = 'index.html';
         } else {
             
             // User is signed out
@@ -244,13 +244,13 @@ function clearInputFields(form){
 //     const passwordInput = document.getElementById("password").value;
     
 //     if(emailInput === userPass.userName && passwordInput === userPass.password){
-//         window.location.href = "mainPage.html";
+//         window.location.href = "index.html";
 //         ProviderisLoggedIn = true;
 //         localStorage.setItem('ProviderisLoggedIn' , ProviderisLoggedIn);
 //         console.log(ProviderisLoggedIn)
 //     }else if(emailInput === userPass.userName2 && passwordInput === userPass.password2){
 
-//         window.location.href = "mainPage.html";
+//         window.location.href = "index.html";
 //         ClientisLoggedIn = true;
 //         localStorage.setItem('ClientisLoggedIn' , ClientisLoggedIn);
 //         console.log(ClientisLoggedIn)
